@@ -1,0 +1,19 @@
+h3{
+    text-decoration: underline;
+    text-decoration-thickness: 2px; 
+}
+a{
+    color: orange;
+}
+ul a{
+    color: red;
+    text-decoration-thickness: 2px; 
+}
+mark{
+    color: maroon;
+    text-decoration: underline;
+    text-decoration-thickness: 2px; 
+}
+.li1{
+    font-weight: bold;
+}

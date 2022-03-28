@@ -1,0 +1,27 @@
+body{
+    background-color: lightyellow;
+}
+div{
+    background-color: white;
+    border: 1px solid black;
+}
+.box3{
+    color: red;
+    border: 2px dotted red;
+}
+.box3 p{
+    border: 2px dotted red;
+}
+h2, p{
+    margin-left:6px;
+    margin-right:6px;
+}
+mark {
+    font-weight: bold;
+    padding-left:5px;
+    padding-right:5px ;
+
+}
+.ipsum{
+    background-color: rgba(250, 171, 140, 0.938);
+}
