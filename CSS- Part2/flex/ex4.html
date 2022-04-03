@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise #4- FlexBox</title>
+        <style>
+            body{
+                background-color: rgb(252, 252, 186);
+            }
+            .users{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                background-color: white;
+                border-radius: 70px;
+                box-shadow: 1px 2px 3px 4px hsl(0deg 0% 0% / 0.06);
+                margin: 30px 300px;
+                height: 500px;
+                width: 400px;
+                padding: 10px;
+                line-height: 5px;
+            }
+
+            .users .info{
+                padding: 40px 20px;
+                float: left;
+                
+            }
+            .user1{
+                flex: 1;
+            }
+            .user2{
+                flex: 1;
+            }
+            .user3{
+                flex: 1;
+            }
+            .user4{
+                flex: 1;
+            }
+
+            img{
+                height: 90px;
+                width: 90px;
+                float: left;
+                margin-top: 5px;
+                margin-left: 5px;
+                border-radius: 100px;
+            }
+            .users .location{
+                margin-top: 10px;
+                font-size: 15px;
+                color: lightgray;
+            }
+            .users .user{
+                font-weight: bold;
+                font-size: 20px;
+            }
+            hr{
+                background-color: lightgray;
+                width: 370px;
+                border-top: 0.5px solid #fff;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="users">
+            <div class="user1">
+                <img src="./images/user-icon.png">
+                <div class="info">
+                    <div class="user">User #1</div><br>
+                    <div class="location">Amman, Jordan</div>
+                </div>
+            </div>
+            <hr>
+            <div class="user2">
+                <img src="./images/user-icon.png"> 
+                <div class="info">
+                    <div class="user">User #2</div><br>
+                    <div class="location">Salt, Jordan</div>
+                </div>
+            </div>
+            <hr>
+            <div class="user3">
+                <img src="./images/user-icon.png">
+                <div class="info">
+                    <div class="user">User #3</div><br>
+                    <div class="location">Zarqa, Jordan</div>
+                </div>
+                
+            </div>
+            <hr>
+            <div class="user4">
+                <img src="./images/user-icon.png">
+                <div class="info">
+                    <div class="user">User #4</div><br>
+                    <div class="location">Irbid, Jordan</div>
+                </div> 
+                
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise #5- Grid</title>
+        <style>
+            .main-items{
+                display: grid;
+                grid-template-columns: auto auto auto auto;
+                grid-template-rows: 200px 200px 200px;
+                gap: 10px;
+                padding: 10px;
+                
+            }
+            .main-items div
+            {
+                background-color: rgb(241, 238, 238);
+                font-size: 15px;
+                padding: 10px;
+            }
+            .sub-items1{
+                display: grid;
+                grid-template-columns: auto auto;
+                gap: 5px;
+            }
+            .sub-items1 div{
+                background-color: rgb(177, 174, 174);
+            }
+            .row-sub-items
+            {
+                display: grid;
+                grid-template-rows: auto auto;
+                gap: 5px;
+            }
+            .row-sub-items div{
+                background-color: rgb(177, 174, 174);
+            }
+            .column-sub-items{
+                display: grid;
+                grid-template-columns: auto auto;
+                gap: 5px;
+            }
+            .column-sub-items div{
+                background-color: rgb(177, 174, 174);
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="main-items">
+            <div>Item 1</div>
+            <div class="sub-items1">
+                <div>Sub 1</div>
+                <div>Sub 2</div>
+                <div>Sub 3</div>
+                <div>Sub 4</div>
+
+            </div>
+            <div class="sub-items1">
+                <div>Sub 1</div>
+                <div>Sub 2</div>
+                <div>Sub 3</div>
+                <div>Sub 4</div>
+
+            </div>
+            <div>Item 4</div>
+            <div>Item 5</div>
+            <div class="row-sub-items">
+                <div>Sub 1</div>
+                <div>Sub2</div>
+            </div>
+            <div class="column-sub-items">
+                <div>Sub 1</div>
+                <div>Sub 2</div>
+            </div>
+            <div>Item 8</div>
+            <div class="sub-items1">
+                <div>Sub 1</div>
+                <div>Sub 2</div>
+                <div>Sub 3</div>
+                <div>Sub 4</div>
+
+            </div>
+            <div>Item 10</div>
+            <div>Item 11</div>
+            <div class="sub-items1">
+                <div>Sub 1</div>
+                <div>Sub 2</div>
+                <div>Sub 3</div>
+                <div>Sub 4</div>
+
+            </div>
+        </div>
+    </body>
+</html>

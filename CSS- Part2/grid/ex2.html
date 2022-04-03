@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise #2- Grid</title>
+        <style>
+            .numbers{
+                display: grid;
+                grid-template-columns: auto auto auto auto;
+                gap: 5px;
+            }
+            .numbers div{
+                padding: 20px;
+                text-align: center;
+                background-color: yellow;
+            }
+            .num1 { order: 8; }
+            .num2 { order: 2; }
+            .num3 { order: 1; }
+            .num4 { order: 3; }
+            .num5 { order: 7; }
+            .num6 { order: 4; }
+            .num7 { order: 5; }
+            .num8 { order: 6; }
+        </style>
+    </head>
+
+    <body>
+        <h3>What do you think !</h3>
+
+        <div class="numbers">
+            <div class="num1">1</div>
+            <div class="num2">2</div>
+            <div class="num3">3</div>
+            <div class="num4">4</div>
+            <div class="num5">5</div>
+            <div class="num6">6</div>
+            <div class="num7">7</div>
+            <div class="num8">8</div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise #1- Grid</title>
+        <style>
+            .item1{
+                grid-area: b;
+                background-color: black;
+                padding: 20px;
+            }
+            .item2{
+                grid-area: o;
+                background-color: orange;
+                padding: 70px;
+               
+            }
+            .item3{
+                grid-area: g;
+                background-color: green;
+                padding: 70px;
+                
+            }
+            .item4{
+                grid-area: bl;
+                background-color: blue;
+                padding: 40px;
+            }
+            .grid-container{
+                display: grid;
+                grid-template-areas: 'b b b b b'
+                'o o o o g'
+                'o o o o g'
+                'o o o o g'
+                'o o o o g'
+                'o o o o g'
+                'bl bl bl bl bl';
+                gap: 5px;
+                padding: 10px;
+                background-color: white;
+
+            }
+            
+        </style>
+    </head>
+
+    <body>
+        <div class="grid-container">
+            <div class="item1"></div>
+            <div class="item2"></div>
+            <div class="item3"></div>
+            <div class="item4"></div>
+        </div>
+    </body>
+</html>
